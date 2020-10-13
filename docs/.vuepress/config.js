@@ -3,12 +3,13 @@
  * @author 张晓龙 <2467365764@qq.com>
  * @copyright 2020
  * @Date 2020-10-12 16:26:44
- * @FilePath /appfile/docs/.vuepress/config.js
+ * @FilePath /miniapp-quickstart-template-doc/docs/.vuepress/config.js
  */
 
 module.exports = {
   title: "小程序文档",
   description: "",
+  base: "/miniapp-quickstart-template-doc/",
   head: [
     [
       "link",
