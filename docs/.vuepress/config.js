@@ -33,7 +33,7 @@ module.exports = {
       {
         title: "UI组件",
         collapsable: true,
-        children: ["/components/u-body/"],
+        children: ["/components/u-body/", "/components/u-nav/"],
       },
       {
         title: "工具类",

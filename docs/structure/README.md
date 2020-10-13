@@ -1,3 +1,3 @@
 ## 结构
 
-### 尽情期待
+![An image](./images/pic.png)

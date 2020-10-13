@@ -1,7 +1,7 @@
 ---
 home: true
 actionText: 使用说明 →
-actionLink: /components/u-body/
+actionLink: /structure/
 features:
   - title: 项目结构
     details: 介绍miniapp框架的整体项目结构。
