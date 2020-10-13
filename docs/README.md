@@ -1,7 +1,7 @@
 ---
 home: true
 actionText: 使用说明 →
-actionLink: /utils/formatTime/
+actionLink: /components/u-body/
 features:
   - title: 项目结构
     details: 介绍小程序的整体项目结构。
