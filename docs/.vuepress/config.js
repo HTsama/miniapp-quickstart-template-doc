@@ -8,7 +8,7 @@
 
 module.exports = {
   title: "小程序文档",
-  description: "",
+  description: "欢迎访问miniapp说明文档",
   base: "/miniapp-quickstart-template-doc/",
   head: [
     [
