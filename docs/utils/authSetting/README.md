@@ -2,7 +2,7 @@
 
 ## 说明
 
-### 获取当前小程序授权状态
+### 获取当前 app 授权状态
 
 ```ts
 export const authSetting = async () => {

@@ -2,7 +2,7 @@
 
 ## 说明
 
-### 小程序静默登录
+### app 静默登录
 
 ```ts
 export const userLogin = (): Promise<any> => {
@@ -36,15 +36,15 @@ this.$util.userLogin();
 ```ts
 this.$util.$userLogin().then((res) => {
   if (res.authStatus != -1) {
-    wx.setStorageSync("token", res.token);
+    wx.setStorageSync('token', res.token);
     if (res.identity == 1) {
-      wx.navigateTo({ url: "/views/index/views/login/index" });
+      wx.navigateTo({ url: '/views/index/views/login/index' });
       return;
     }
     fun();
     return;
   } else {
-    wx.navigateTo({ url: "/views/index/views/login/index" });
+    wx.navigateTo({ url: '/views/index/views/login/index' });
   }
 });
 ```
